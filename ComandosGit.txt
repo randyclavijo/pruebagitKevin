@@ -1,0 +1,21 @@
+***********REPOSITORIO LOCAL DE GIT**********
+
+- cd (nombre de carpeta) // para ingresar donde vamos a colocar el git
+- git init// para inicializar git en la carpeta
+
+***********REPOSITORIO EN  GITHUB**********
+// debemos tener el url del repositorio a comunicarnos
+
+url de prueba: https://github.com/randyclavijo/pruebagitKevin.git
+
+Primero debemos identificar de quien es el repositorio. (usuario y email)
+
+git config user.name"randyclavijo"
+
+git config user.email"randycf1@gmail.com"
+
+Procedemos a comunicarnos local a remoto
+
+git remote add origin https://github.com/randyclavijo/pruebagitKevin.git
+
+subir el archivo de R.Loca a R.Remoto
