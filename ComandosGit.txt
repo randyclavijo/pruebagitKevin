@@ -19,3 +19,20 @@ Procedemos a comunicarnos local a remoto
 git remote add origin https://github.com/randyclavijo/pruebagitKevin.git
 
 subir el archivo de R.Loca a R.Remoto
+- git status (permite ver stado de git)
+
+agregar al repositorio 
+
+- git add (nombre del archivo a subir)
+
+confirmar la subida del archivo al R.REMOTO
+
+- git commit -m este es mi primer archivo de subida
+
+comando Push para subir ya todo el archivo a r.remoto
+
+- git push -u (nombre del r.local) (nombre de rama) por defecto es "master"
+
+como clonar lo del r.remoto al r. local
+
+- git clone (se utiliza para copiar todo el archivo completo) + url del repositorio a copiar.
