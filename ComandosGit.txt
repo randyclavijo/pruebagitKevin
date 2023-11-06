@@ -36,3 +36,33 @@ comando Push para subir ya todo el archivo a r.remoto
 como clonar lo del r.remoto al r. local
 
 - git clone (se utiliza para copiar todo el archivo completo) + url del repositorio a copiar.
+
+PARA ACTUALIZAR SOLAMENTE EL REPOSITORIO
+- git pull origin master
+
+******************RAMAS*********************BRANCH****
+
+git  branch (nos indica en que rama estamos)
+
+git branch "nombre de rama" (crear rama)
+
+git branch -m nombreAnterior nombreActual (updateRama)
+
+git checkout (nombre de rama para cambiar) movernos de rama
+
+git branch -d (nombre de rama) para borrar rama
+
+
+**************************DIFF **********************MERGE***********
+
+git diff (nombre rama 1) con (nombre de rama 2)  // para compara ramas // si se invierte el orden de ramas el sms es diferente
+
+git merge (ramaOrigen ramaDestino) se coloca la rama de donde se va actualizar y luego la rama a actualizar// debemos de pararnos en la rama desactualizada
+
+**********************************TOKEN*************************
+git init
+git config user.name
+git config user.email
+git config user.password (token se pega)
+git remote add origin (url del repositorio)
+
